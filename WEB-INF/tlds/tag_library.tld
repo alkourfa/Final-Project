@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.1" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd">
+  <tlib-version>1.0</tlib-version>
+  <short-name>tag_library</short-name>
+  <uri>TagFunctions</uri>
+  <function>
+    <name>reuse</name>
+    <function-class>tags.reUse</function-class>
+    <function-signature>String reUsableCode(int)</function-signature>
+  </function>
+  <function>
+    <name>parse</name>
+    <function-class>prices.xml</function-class>
+    <function-signature>Double prices(int)</function-signature>
+  </function>
+  
+</taglib>
